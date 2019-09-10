@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub Repo Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Find repos by user handle</h1>
+        <h2>Input the user handle and click the search button.</h2>        
+    </header>
+    <section class="form-container">
+        <form class="search-form" action="#">
+            <Fieldset>
+                <label for="userHandle" class="label-userHandle">Enter the user handle to search for repos?</label>
+                <input id="userHandle" type="text" class="input-userHandle" value="bmckenna1982" required>
+                <button type="submit" class="submit-button">Find Repos</button>
+            </Fieldset>
+        </form>
+    </section>
+    <section class="results-display">
+        <ul class="results-list">            
+        </ul>
+    </section>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
